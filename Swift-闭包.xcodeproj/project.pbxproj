@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		CB48C8FF19E92A39007CF3EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB48C8FE19E92A39007CF3EA /* AppDelegate.swift */; };
-		CB48C90119E92A39007CF3EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB48C90019E92A39007CF3EA /* ViewController.swift */; };
-		CB48C90419E92A39007CF3EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB48C90219E92A39007CF3EA /* Main.storyboard */; };
 		CB48C90619E92A39007CF3EA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB48C90519E92A39007CF3EA /* Images.xcassets */; };
 		CB48C90919E92A39007CF3EA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB48C90719E92A39007CF3EA /* LaunchScreen.xib */; };
 		CB48C91519E92A39007CF3EA /* Swift___Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB48C91419E92A39007CF3EA /* Swift___Tests.swift */; };
+		CB48C91F19E92A4E007CF3EA /* SecondController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB48C91E19E92A4E007CF3EA /* SecondController.swift */; };
+		CB48C92219E92A72007CF3EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB48C92019E92A72007CF3EA /* ViewController.swift */; };
+		CB48C92319E92A72007CF3EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB48C92119E92A72007CF3EA /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +30,14 @@
 		CB48C8F919E92A39007CF3EA /* Swift-闭包.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-闭包.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB48C8FD19E92A39007CF3EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB48C8FE19E92A39007CF3EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CB48C90019E92A39007CF3EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CB48C90319E92A39007CF3EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB48C90519E92A39007CF3EA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CB48C90819E92A39007CF3EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		CB48C90E19E92A39007CF3EA /* Swift-闭包Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-闭包Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB48C91319E92A39007CF3EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB48C91419E92A39007CF3EA /* Swift___Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift___Tests.swift"; sourceTree = "<group>"; };
+		CB48C91E19E92A4E007CF3EA /* SecondController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondController.swift; sourceTree = "<group>"; };
+		CB48C92019E92A72007CF3EA /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CB48C92119E92A72007CF3EA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +80,9 @@
 			isa = PBXGroup;
 			children = (
 				CB48C8FE19E92A39007CF3EA /* AppDelegate.swift */,
-				CB48C90019E92A39007CF3EA /* ViewController.swift */,
-				CB48C90219E92A39007CF3EA /* Main.storyboard */,
+				CB48C92019E92A72007CF3EA /* ViewController.swift */,
+				CB48C91E19E92A4E007CF3EA /* SecondController.swift */,
+				CB48C92119E92A72007CF3EA /* Main.storyboard */,
 				CB48C90519E92A39007CF3EA /* Images.xcassets */,
 				CB48C90719E92A39007CF3EA /* LaunchScreen.xib */,
 				CB48C8FC19E92A39007CF3EA /* Supporting Files */,
@@ -192,7 +195,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB48C90419E92A39007CF3EA /* Main.storyboard in Resources */,
+				CB48C92319E92A72007CF3EA /* Main.storyboard in Resources */,
 				CB48C90919E92A39007CF3EA /* LaunchScreen.xib in Resources */,
 				CB48C90619E92A39007CF3EA /* Images.xcassets in Resources */,
 			);
@@ -212,7 +215,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB48C90119E92A39007CF3EA /* ViewController.swift in Sources */,
+				CB48C92219E92A72007CF3EA /* ViewController.swift in Sources */,
+				CB48C91F19E92A4E007CF3EA /* SecondController.swift in Sources */,
 				CB48C8FF19E92A39007CF3EA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -236,14 +240,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CB48C90219E92A39007CF3EA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CB48C90319E92A39007CF3EA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CB48C90719E92A39007CF3EA /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -405,6 +401,7 @@
 				CB48C91A19E92A39007CF3EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB48C91B19E92A39007CF3EA /* Build configuration list for PBXNativeTarget "Swift-闭包Tests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +410,7 @@
 				CB48C91D19E92A39007CF3EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
